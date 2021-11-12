@@ -1,0 +1,12 @@
+{
+	"mapMarkers": [
+	{
+      "refID": "Skyrim.esm|1626C", // Karthspire
+      "iconName": "PeakMarker"
+	},
+	{
+      "refID": "Skyrim.esm|17780", // Helgen
+      "iconName": "RuinedNordicSettlementMarker"
+	}
+  ]
+}
