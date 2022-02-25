@@ -7,6 +7,10 @@
 	{
       "refID": "Skyrim.esm|17780", // Helgen
       "iconName": "RuinedNordicSettlementMarker"
+	},
+	{
+      "refID": "Skyrim.esm|177A1", // Kynesgrove
+      "icon": 2 //Town
 	}
   ]
 }
