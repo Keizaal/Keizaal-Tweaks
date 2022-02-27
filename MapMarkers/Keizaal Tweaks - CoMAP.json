@@ -1,0 +1,44 @@
+{
+	"mapMarkers": [
+	{
+      "refID": "Skyrim.esm|1626C", // Karthspire
+      "iconName": "PeakMarker"
+	},
+	{
+      "refID": "Skyrim.esm|17780", // Helgen
+      "iconName": "RuinedNordicSettlementMarker"
+	},
+	{
+      "refID": "Skyrim.esm|177A1", // Kynesgrove
+      "icon": 2 //Town
+	},
+	{
+      "refID": "Skyrim.esm|177C3", // Old Hroldan
+      "iconName": "BreticTownMarker"
+	},
+	{
+      "refID": "Skyrim.esm|177E4", // Stonehills
+      "icon": 3 //Settlement
+	},
+	{
+      "refID": "Skyrim.esm|17732", // Darkwater Crossing
+      "icon": 3 //Settlement
+	},
+	{
+      "refID": "Skyrim.esm|162BB", // Soljund's Sinkhole
+      "iconName": "BreticSettlementMarker"
+	},
+	{
+      "refID": "Skyrim.esm|2051D", // Kolskeggr Mine
+      "iconName": "BreticSettlementMarker"
+	},
+	{
+      "refID": "Skyrim.esm|16275", // Bilegultch Mine
+      "icon": 28 //Stronghold
+	},
+	{
+      "refID": "Skyrim.esm|1625B", // Cracked Tusk Keep
+      "icon": 28 //Stronghold
+	}
+  ]
+}
