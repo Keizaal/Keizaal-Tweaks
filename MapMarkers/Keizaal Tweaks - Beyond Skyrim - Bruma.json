@@ -1,8 +1,22 @@
 {
-	"mapMarkers": [
-	{
-      "refID": "BSHeartland.esm|0x00D79CE", // To Skyrim
-      "iconName": "TravelIconNMarker"
-	}
+  "iconDefinitions": [
+    {
+      "name": "ElvenRuinsMarker",
+      "source": {
+        "path": "Resources\\comapresources.swf",
+        "exportNames": ["ElvenRuins", "ElvenRuins Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BS219Marker",
+      "source": {
+        "path": "Resources\\comapresources.swf",
+        "exportNames": ["ElvenRuins", "ElvenRuins Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    }
   ]
 }

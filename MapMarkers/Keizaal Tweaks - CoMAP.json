@@ -39,6 +39,19 @@
 	{
       "refID": "Skyrim.esm|1625B", // Cracked Tusk Keep
       "icon": 28 //Stronghold
-	}
+	},
+    {
+      "refID": "Dawnguard.esm|88E0", // Forgotten Vale
+      "iconName": "BS154Marker"
+    }, 
+	{
+      "refID": "Pilgrim.esp|F8B3B", // Auta
+      "iconName": "BS154Marker"
+    },
+	{
+      "refID": "Dragonborn.esm|143E2", // Skaal Village
+      "iconName": "HoldsDawnstarCastleMarker"
+    }
+	
   ]
 }
