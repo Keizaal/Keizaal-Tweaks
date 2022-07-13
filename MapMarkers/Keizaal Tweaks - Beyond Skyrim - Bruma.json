@@ -17,6 +17,24 @@
       },
       "scale": 1.000000,
       "discoveryMusic": "MUSDiscoveryGeneric"
-    }
+    },
+    {
+      "name": "BSBrumaCastleMarker",
+      "source": {
+        "path": "Resources\\brumaresources.swf",
+        "exportNames": ["BSBrumaCastle", "BSBrumaCastle Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BS224Marker",
+      "source": {
+        "path": "Resources\\brumaresources.swf",
+        "exportNames": ["BSBrumaCastle", "BSBrumaCastle Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
   ]
 }
