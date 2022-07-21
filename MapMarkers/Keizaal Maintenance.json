@@ -1,0 +1,13 @@
+{
+  "iconDefinitions": [
+    {
+      "name": "KZRoscreanSettlementMarker",
+      "source": {
+        "path": "Resources\\keizaalresources.swf",
+        "exportNames": ["KZRoscreanSettlement", "KZRoscreanSettlement Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+  ]
+}
