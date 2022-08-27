@@ -1,17 +1,16 @@
 Scriptname _CTB_PlayerTakesHead extends ReferenceAlias  
 
-EVENT OnItemAdded(Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer)
-Actor a = Bounty.getActorReference()
-	IF 	!GetOwningQuest().isStageDone(stage) && akBaseItem == Head && a.IsDead() == True
-		Game.FadeOutGame(false, true, 0.7, 1.6)
-		WPNImpactAxeVsFleshSDLarge.Play(PlayerRef)
-		UI.Invoke("ContainerMenu", "_root.Menu_mc.onExitMenuRectClick")
-		Utility.Wait(0.5)
-		a.UnequipItemSlot(30)
-		a.EquipItem(Headless)
-		GetOwningQuest().setStage(stage)
-	ENDIF
-ENDEVENT
+Event OnItemAdded(Form akBaseItem, int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer)
+
+If akBaseItem == Head && Bounty.GetActorReference().IsDead() == True
+Game.FadeOutGame(false, true, 0.7, 1.6)
+WPNImpactAxeVsFleshSDLarge.Play(PlayerRef)
+Utility.Wait(1.5)
+(Bounty.GetActorReference()).UnequipItemSlot(30)
+(Bounty.GetActorReference()).EquipItem(Headless)
+GetOwningQuest().setStage(stage)
+endif
+endevent
 
 miscobject property head auto
 ReferenceAlias Property Bounty Auto
