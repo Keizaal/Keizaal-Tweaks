@@ -1,0 +1,131 @@
+{
+  "iconDefinitions": [
+    {
+      "name": "KZRoscreanSettlementMarker",
+      "source": {
+        "path": "Resources\\keizaalresources.swf",
+        "exportNames": ["KZRoscreanSettlement", "KZRoscreanSettlement Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "ElvenRuinsMarker",
+      "source": {
+        "exportNames": ["ElvenRuins", "ElvenRuins Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "BS219Marker",
+      "source": {
+        "exportNames": ["ElvenRuins", "ElvenRuins Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "MorrowindDwemerMarker",
+      "source": {
+        "path": "Resources\\bsresources01.swf",
+        "exportNames": ["BS122", "BS122 Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "BS122Marker",
+      "source": {
+        "path": "Resources\\bsresources01.swf",
+        "exportNames": ["BS122", "BS122 Undiscovered"]
+      },
+      "scale": 1.000000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "BSBrumaCityMarker",
+      "source": {
+        "path": "Resources\\bsresources01.swf",
+        "exportNames": ["BS099", "BS099 Undiscovered"]
+      },
+      "scale": 1.333333,
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "name": "BS099Marker",
+      "source": {
+        "path": "Resources\\bsresources01.swf",
+        "exportNames": ["BS099", "BS099 Undiscovered"]
+      },
+      "scale": 1.333333,
+      "discoveryMusic": "MUSDiscoveryCity"
+    }
+  ],
+	"mapMarkers": [
+	{
+      "refID": "Dragonborn.esm|143E2", // Skaal Village
+      "iconName": "KZRoscreanSettlementMarker"
+    },
+	{
+      "refID": "Unique Border Gates - Fixes.esp|8DF", // Dunmeth Pass
+      "iconName": "CheckpointMarker"
+    },
+	{
+      "refID": "Unique Border Gates - Fixes.esp|8E9", // Pale Pass
+      "iconName": "CheckpointMarker"
+    },
+	{
+      "refID": "Unique Border Gates - Fixes.esp|8EC", // Silgrad Pass
+      "iconName": "CheckpointMarker"
+    },
+	{
+      "refID": "Unique Border Gates - Fixes.esp|8FC", // Talos Pass
+      "iconName": "CheckpointMarker"
+    },
+	{
+      "refID": "Unique Border Gates - Fixes.esp|5B164", // Pale Pass (Cyrodiil)
+      "iconName": "CheckpointMarker"
+    },
+    {
+      "refID": "Taarengrav.esp|0xBBC21", // Taarengrav Mine (Original Marker: Mine)
+      "iconName": "MineshaftMarker"
+    },
+    {
+    "refID": "MorihausRefuge.esp|BB8", // Morihaus' Refuge (Original Marker: MinotaurCamp)
+    "iconName": "MasleaAlessianRuinsMarker"
+    },
+    {
+      "refID": "CoMAP - KhajiitCaravans.esp|800", // Whiterun Khajiit Caravan
+      "iconName": "KhajiitiSettlementMarker"
+    },
+    {
+      "refID": "CoMAP - KhajiitCaravans.esp|801", // Markarth Khajiit Caravan
+      "iconName": "KhajiitiSettlementMarker"
+    },
+    {
+      "refID": "CoMAP - KhajiitCaravans.esp|802", // Solitude Khajiit Caravan
+      "iconName": "KhajiitiSettlementMarker"
+    },
+    {
+      "refID": "CoMAP - KhajiitCaravans.esp|803", // Windhelm Khajiit Caravan
+      "iconName": "KhajiitiSettlementMarker"
+    },
+    {
+      "refID": "CoMAP - KhajiitCaravans.esp|804", // Riften Khajiit Caravan
+      "iconName": "KhajiitiSettlementMarker"
+    },
+    {
+      "refID": "CoMAP - KhajiitCaravans.esp|805", // Dawnstar Khajiit Caravan
+      "iconName": "KhajiitiSettlementMarker"
+    },
+    {
+      "refID": "Skyrim.esm|108A58", // Stendarr's Beacon
+      "iconName": "22" //ImperialTower
+    }, 
+    {
+      "refID": "Wyrmstooth.esp|47006D", // Stendarr's Outpost 
+      "iconName": "VigilantsMarker"
+    }
+  ]
+}

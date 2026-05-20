@@ -1,0 +1,8 @@
+{
+  "mapMarkers": [
+    {
+      "refID": "Keizaal Tweaks - TGC Winterhold.esp|800", // Frostveil Hall (Original Marker: Fort)
+      "iconName": "HoldsDawnstarCastleMarker"
+    }
+  ]
+}
